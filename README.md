@@ -1,12 +1,10 @@
 simplevnc
 ===================
 
-Node.js vnc client for embedding into your own applications. Built from [js-vnc-demo-project](https://github.com/mgechev/js-vnc-demo-project)
+NodeJs 기반 VNC 클라이언트 입니다. [simplevnc](https://github.com/iSchluff/simplevnc)
 
-#### Installation
-```
-npm install git+https://github.com/iSchluff/simplevnc.git
-```
+
+## Usage
 
 #### Run Example
 ```
@@ -16,7 +14,6 @@ node example/server.js
 
 Then open up http://localhost:8000 in your browser.
 
-## Usage
 ##### Serverside
 ```js
 var http = require('http');
@@ -67,3 +64,15 @@ setTimeout(function(){
 }, 10000);
 ```
 **Important:** Please add ```--ignore ./node_modules/simplevnc/server/Server.js``` to your browserify commandline, to avoid cluttering your bundle with serverside dependencies.
+
+
+## TODO
+
+### Server side
+
+[] kubernetes 연동
+[] docker image 빌드
+
+### Client side
+
+[] react.js 으로 포팅
