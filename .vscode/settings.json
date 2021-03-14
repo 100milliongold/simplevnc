@@ -1,0 +1,13 @@
+{
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      }
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "javascript.format.enable": true,
+    "material-icon-theme.activeIconPack": "react_redux"
+  }
